@@ -1,0 +1,110 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+p,
+li {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+header {
+    background-color: #8d4b4b;
+    padding: 20px;
+    text-align: center;
+}
+
+header a:link {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.candy-info {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.candy-info h2 {
+    font-size: 28px;
+}
+
+.candy-info p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #ffeecc;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.company-info p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
